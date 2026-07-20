@@ -1,7 +1,10 @@
 package com.diu.transportapp;
 
 import android.animation.ObjectAnimator;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.View;
 import android.widget.TextView;
 
@@ -36,5 +39,12 @@ public class MainActivity extends AppCompatActivity {
         animator.setRepeatMode(ObjectAnimator.REVERSE);
         animator.setRepeatCount(ObjectAnimator.INFINITE);
         animator.start();
+
+        // 2 Second delay on 1st screen
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
+            finish();
+        }, 2000); // 2000 milliseconds = 2 seconds
     }
 }
