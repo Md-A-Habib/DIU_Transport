@@ -38,6 +38,12 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        // Forgot Password Click Action - Redirect to ForgotPasswordActivity
+        tvForgotPassword.setOnClickListener(v -> {
+            Intent intent = new Intent(LoginActivity.this, ForgotPasswordActivity.class);
+            startActivity(intent);
+        });
+
         // Signup Click Action - Redirect to SignupActivity
         tvSignUp.setOnClickListener(v -> {
             Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
