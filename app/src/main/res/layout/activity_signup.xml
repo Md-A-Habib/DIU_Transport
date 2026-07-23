@@ -73,15 +73,15 @@
                 android:layout_height="wrap_content"
                 android:text="Faculty"
                 android:textColor="#FFFFFF"
-                android:layout_marginStart="16dp" />
+                android:layout_marginStart="8dp" />
 
             <RadioButton
-                android:id="@+id/rbAdmin"
+                android:id="@+id/rbStaff"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Admin"
+                android:text="Staff"
                 android:textColor="#FFFFFF"
-                android:layout_marginStart="16dp" />
+                android:layout_marginStart="8dp" />
         </RadioGroup>
 
         <!-- Input Fields -->
@@ -119,7 +119,7 @@
             android:id="@+id/etIdNumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="Student ID (e.g., 221-15-...)"
+            android:hint="Student ID (e.g., 251-15-...)"
             android:inputType="text"
             android:textColor="#FFFFFF"
             android:textColorHint="#888888"

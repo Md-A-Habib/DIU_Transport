@@ -1,5 +1,6 @@
 package com.diu.transportapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,14 +34,14 @@ public class SignupActivity extends AppCompatActivity {
         btnRegister = findViewById(R.id.btnRegister);
         tvLoginLink = findViewById(R.id.tvLoginLink);
 
-        // Dynamic Hint change based on Role selection (Student vs Faculty/Admin)
+        // Dynamic Hint change based on Role selection
         rgRole.setOnCheckedChangeListener((group, checkedId) -> {
             if (checkedId == R.id.rbStudent) {
                 etIdNumber.setHint("Student ID (e.g., 221-15-...)");
             } else if (checkedId == R.id.rbFaculty) {
                 etIdNumber.setHint("Faculty Employee ID");
-            } else if (checkedId == R.id.rbAdmin) {
-                etIdNumber.setHint("Admin ID");
+            } else if (checkedId == R.id.rbStaff) {
+                etIdNumber.setHint("Staff ID / Office ID");
             }
         });
 
@@ -59,14 +60,16 @@ public class SignupActivity extends AppCompatActivity {
             } else if (!pass.equals(confirmPass)) {
                 Toast.makeText(SignupActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(SignupActivity.this, "Registration Successful!", Toast.LENGTH_SHORT).show();
-                finish(); // Back to Login page after successful registration
+                // Navigate to Verification Activity
+                Toast.makeText(SignupActivity.this, "Verification code sent to email!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(SignupActivity.this, VerificationActivity.class);
+                startActivity(intent);
             }
         });
 
         // Back to Login Link Click
         tvLoginLink.setOnClickListener(v -> {
-            finish(); // Close signup and return to login
+            finish();
         });
     }
 }
