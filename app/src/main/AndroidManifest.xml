@@ -25,7 +25,8 @@
         <!-- For 2nd Login activity -->
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- For Signup Activity -->
         <activity
@@ -33,17 +34,16 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
-        <!-- For Verification Activity -->
+        <!-- For Home Activity (Dashboard) -->
         <activity
-            android:name=".VerificationActivity"
+            android:name=".HomeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
-        <!-- For Forgot Password Activity -->
+        <!-- For Apply/Renew Transport Activity -->
         <activity
-            android:name=".ForgotPasswordActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize|stateHidden" />
+            android:name=".ApplyTransportActivity"
+            android:exported="false" />
 
     </application>
 

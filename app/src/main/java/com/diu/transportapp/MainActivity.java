@@ -1,12 +1,9 @@
 package com.diu.transportapp;
 
-import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.view.View;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Night Mode
+        // Force Dark Mode
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 
         super.onCreate(savedInstanceState);
@@ -32,15 +29,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Loading Text Animation
-        TextView loadingText = findViewById(R.id.loadingText);
-        ObjectAnimator animator = ObjectAnimator.ofFloat(loadingText, View.ALPHA, 1.0f, 0.2f);
-        animator.setDuration(800); // 0.8 second
-        animator.setRepeatMode(ObjectAnimator.REVERSE);
-        animator.setRepeatCount(ObjectAnimator.INFINITE);
-        animator.start();
-
-        // 2 Second delay on 1st screen
+        // 2 Second delay - 2 second por automatic LoginActivity-te chole jabe
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);

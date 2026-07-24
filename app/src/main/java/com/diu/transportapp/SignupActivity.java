@@ -60,10 +60,13 @@ public class SignupActivity extends AppCompatActivity {
             } else if (!pass.equals(confirmPass)) {
                 Toast.makeText(SignupActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
             } else {
-                // Navigate to Verification Activity
-                Toast.makeText(SignupActivity.this, "Verification code sent to email!", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(SignupActivity.this, VerificationActivity.class);
+                // Registration Successful!
+                Toast.makeText(SignupActivity.this, "Registration Successful!", Toast.LENGTH_SHORT).show();
+
+                // Redirect to HomeActivity and clear Signup activity from backstack
+                Intent intent = new Intent(SignupActivity.this, HomeActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

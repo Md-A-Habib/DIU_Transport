@@ -20,6 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        // Initializing views
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
@@ -35,13 +36,17 @@ public class LoginActivity extends AppCompatActivity {
                 Toast.makeText(LoginActivity.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+
+                // Redirect to HomeActivity (Dashboard)
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(intent);
+                finish(); // Jate user back korle abar login page-e fire na ashe
             }
         });
 
-        // Forgot Password Click Action - Redirect to ForgotPasswordActivity
+        // Forgot Password Click Action - Show Toast Message directly
         tvForgotPassword.setOnClickListener(v -> {
-            Intent intent = new Intent(LoginActivity.this, ForgotPasswordActivity.class);
-            startActivity(intent);
+            Toast.makeText(LoginActivity.this, "Please contact with the Transport Office for password reset.", Toast.LENGTH_LONG).show();
         });
 
         // Signup Click Action - Redirect to SignupActivity
