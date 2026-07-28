@@ -37,8 +37,9 @@ public class LoginActivity extends AppCompatActivity {
             } else {
                 Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
 
-                // Redirect to HomeActivity (Dashboard)
+                // Redirect to HomeActivity (Dashboard) and clear login from stack
                 Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 finish(); // Jate user back korle abar login page-e fire na ashe
             }

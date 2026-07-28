@@ -45,6 +45,41 @@
             android:name=".ApplyTransportActivity"
             android:exported="false" />
 
+        <!-- For Bus Schedule Activity -->
+        <activity
+            android:name=".BusScheduleActivity"
+            android:exported="false" />
+
+        <!-- For Complain Activity -->
+        <activity
+            android:name=".ComplainActivity"
+            android:exported="false" />
+
+        <!-- For Previous Complain Activity -->
+        <activity
+            android:name=".PreviousComplainActivity"
+            android:exported="false" />
+
+        <!-- For Report Activity -->
+        <activity
+            android:name=".ReportActivity"
+            android:exported="false" />
+
+        <!-- For Notice Activity -->
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+
+        <!-- For Emergency Helpline Activity -->
+        <activity
+            android:name=".EmergencyActivity"
+            android:exported="false" />
+
+        <!-- For Change Password Activity -->
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

@@ -59,5 +59,76 @@ public class HomeActivity extends AppCompatActivity {
                 }
             });
         }
+
+        // --- Bus Schedule Card Click Action ---
+        CardView cardBusSchedule = findViewById(R.id.cardBusSchedule);
+
+        if (cardBusSchedule != null) {
+            cardBusSchedule.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, BusScheduleActivity.class);
+                startActivity(intent);
+            });
+        }
+
+        // --- Seat Booking Card Click Action ---
+        CardView cardSeatBooking = findViewById(R.id.cardSeatBooking);
+
+        if (cardSeatBooking != null) {
+            cardSeatBooking.setOnClickListener(v -> {
+                Toast.makeText(HomeActivity.this, "Seat booking feature will be available soon!", Toast.LENGTH_SHORT).show();
+            });
+        }
+
+        // --- Sign Out Card Click Action ---
+        CardView cardSignOut = findViewById(R.id.cardSignOut);
+
+        if (cardSignOut != null) {
+            cardSignOut.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
+            });
+        }
+
+        // --- Complain Card Click Action ---
+        CardView cardComplain = findViewById(R.id.cardComplain);
+
+        if (cardComplain != null) {
+            cardComplain.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, ComplainActivity.class);
+                startActivity(intent);
+            });
+        }
+
+        // --- Notice Board Card Click Action ---
+        CardView cardNoticeBoard = findViewById(R.id.cardNoticeBoard);
+
+        if (cardNoticeBoard != null) {
+            cardNoticeBoard.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, NoticeActivity.class);
+                startActivity(intent);
+            });
+        }
+
+        // --- Emergency Helpline Card Click Action ---
+        CardView cardEmergencyHelpline = findViewById(R.id.cardEmergencyHelpline);
+
+        if (cardEmergencyHelpline != null) {
+            cardEmergencyHelpline.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, EmergencyActivity.class);
+                startActivity(intent);
+            });
+        }
+
+        // --- Change Password Card Click Action ---
+        CardView cardChangePassword = findViewById(R.id.cardChangePassword);
+
+        if (cardChangePassword != null) {
+            cardChangePassword.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, ChangePasswordActivity.class);
+                startActivity(intent);
+            });
+        }
     }
 }
