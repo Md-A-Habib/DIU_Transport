@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:fillViewport="true"
+    tools:context=".DeleteDriverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Remove Driver"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Driver ID Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#CF6679"
+            app:hintTextColor="#CF6679">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDeleteDriverId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Driver ID (e.g., #DRV-1001)"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Remove Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRemoveDriver"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Remove Driver"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:backgroundTint="#B00020"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+</ScrollView>

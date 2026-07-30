@@ -130,5 +130,15 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             });
         }
+
+        // --- Update Profile Card Click Action ---
+        CardView cardUpdateProfile = findViewById(R.id.cardUpdateProfile);
+
+        if (cardUpdateProfile != null) {
+            cardUpdateProfile.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, UpdateProfileActivity.class);
+                startActivity(intent);
+            });
+        }
     }
 }

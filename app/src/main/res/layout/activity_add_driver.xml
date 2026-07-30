@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:fillViewport="true"
+    tools:context=".AddDriverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Add New Driver"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- 1. Full Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#BB86FC"
+            app:hintTextColor="#BB86FC">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDriverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 2. Phone -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#BB86FC"
+            app:hintTextColor="#BB86FC">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDriverPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 3. Email -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#BB86FC"
+            app:hintTextColor="#BB86FC">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDriverEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 4. Password -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#BB86FC"
+            app:endIconMode="password_toggle"
+            app:hintTextColor="#BB86FC">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDriverPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Submit Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSaveDriver"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save Driver"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:backgroundTint="#6200EE"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+</ScrollView>

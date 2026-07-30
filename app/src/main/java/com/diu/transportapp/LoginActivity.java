@@ -34,7 +34,15 @@ public class LoginActivity extends AppCompatActivity {
 
             if (email.isEmpty() || password.isEmpty()) {
                 Toast.makeText(LoginActivity.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+            } else if (email.equals("admin@diu.edu.bd") && password.equals("admin123")) {
+                // Admin Login Check
+                Toast.makeText(LoginActivity.this, "Admin Login Successful", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(LoginActivity.this, AdminDashboardActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
             } else {
+                // Regular Student Login
                 Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
 
                 // Redirect to HomeActivity (Dashboard) and clear login from stack

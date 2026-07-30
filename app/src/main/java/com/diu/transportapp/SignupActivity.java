@@ -9,6 +9,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 
 public class SignupActivity extends AppCompatActivity {
 
@@ -21,6 +24,13 @@ public class SignupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        // Handle window insets so keyboard automatically adjusts padding correctly
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, windowInsets) -> {
+            Insets insets = windowInsets.getInsets(WindowInsetsCompat.Type.ime());
+            v.setPadding(v.getPaddingLeft(), v.getPaddingTop(), v.getPaddingRight(), insets.bottom);
+            return WindowInsetsCompat.CONSUMED;
+        });
 
         // Initialize views
         rgRole = findViewById(R.id.rgRole);
@@ -37,7 +47,7 @@ public class SignupActivity extends AppCompatActivity {
         // Dynamic Hint change based on Role selection
         rgRole.setOnCheckedChangeListener((group, checkedId) -> {
             if (checkedId == R.id.rbStudent) {
-                etIdNumber.setHint("Student ID (e.g., 221-15-...)");
+                etIdNumber.setHint("Student ID (e.g., 251-15-...)");
             } else if (checkedId == R.id.rbFaculty) {
                 etIdNumber.setHint("Faculty Employee ID");
             } else if (checkedId == R.id.rbStaff) {
@@ -63,16 +73,15 @@ public class SignupActivity extends AppCompatActivity {
                 // Registration Successful!
                 Toast.makeText(SignupActivity.this, "Registration Successful!", Toast.LENGTH_SHORT).show();
 
-                // Redirect to HomeActivity and clear Signup activity from backstack
+                // Redirect to HomeActivity and clear activity stack
                 Intent intent = new Intent(SignupActivity.this, HomeActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 finish();
             }
         });
 
         // Back to Login Link Click
-        tvLoginLink.setOnClickListener(v -> {
-            finish();
-        });
+        tvLoginLink.setOnClickListener(v -> finish());
     }
 }

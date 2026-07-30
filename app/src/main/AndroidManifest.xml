@@ -32,7 +32,7 @@
         <activity
             android:name=".SignupActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize|stateHidden" />
+            android:windowSoftInputMode="adjustResize" />
 
         <!-- For Home Activity (Dashboard) -->
         <activity
@@ -78,6 +78,51 @@
         <!-- For Change Password Activity -->
         <activity
             android:name=".ChangePasswordActivity"
+            android:exported="false" />
+
+        <!-- For Update Profile Activity -->
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="false" />
+
+        <!-- For Admin Dashboard Activity -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+
+        <!-- For Driver Activity -->
+        <activity
+            android:name=".DriverActivity"
+            android:exported="false" />
+
+        <!-- For Add Driver Activity -->
+        <activity
+            android:name=".AddDriverActivity"
+            android:exported="false" />
+
+        <!-- For View Drivers Activity -->
+        <activity
+            android:name=".ViewDriversActivity"
+            android:exported="false" />
+
+        <!-- For Delete Driver Activity -->
+        <activity
+            android:name=".DeleteDriverActivity"
+            android:exported="false" />
+
+        <!-- For Route Activity -->
+        <activity
+            android:name=".RouteActivity"
+            android:exported="false" />
+
+        <!-- For Admin Notice Activity -->
+        <activity
+            android:name=".AdminNoticeActivity"
+            android:exported="false" />
+
+        <!-- For Admin Complain Activity -->
+        <activity
+            android:name=".AdminComplainActivity"
             android:exported="false" />
 
     </application>
