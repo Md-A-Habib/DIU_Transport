@@ -1,5 +1,6 @@
 package com.diu.transportapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -29,19 +30,28 @@ public class RouteActivity extends AppCompatActivity {
         CardView cardUpdateRouteAction = findViewById(R.id.cardUpdateRouteAction);
         CardView cardDeleteRouteAction = findViewById(R.id.cardDeleteRouteAction);
 
+        // 1. Add Bus Route Action (Connected to AddRouteActivity)
         if (cardAddRouteAction != null) {
-            cardAddRouteAction.setOnClickListener(v ->
-                    Toast.makeText(RouteActivity.this, "Add Bus Route Action", Toast.LENGTH_SHORT).show());
+            cardAddRouteAction.setOnClickListener(v -> {
+                Intent intent = new Intent(RouteActivity.this, AddRouteActivity.class);
+                startActivity(intent);
+            });
         }
 
+        // 2. Update Bus Route Action (Connected to UpdateRouteActivity)
         if (cardUpdateRouteAction != null) {
-            cardUpdateRouteAction.setOnClickListener(v ->
-                    Toast.makeText(RouteActivity.this, "Update Bus Route Action", Toast.LENGTH_SHORT).show());
+            cardUpdateRouteAction.setOnClickListener(v -> {
+                Intent intent = new Intent(RouteActivity.this, UpdateRouteActivity.class);
+                startActivity(intent);
+            });
         }
 
+        // 3. Delete Bus Route Action (Connected to DeleteRouteActivity)
         if (cardDeleteRouteAction != null) {
-            cardDeleteRouteAction.setOnClickListener(v ->
-                    Toast.makeText(RouteActivity.this, "Delete Bus Route Action", Toast.LENGTH_SHORT).show());
+            cardDeleteRouteAction.setOnClickListener(v -> {
+                Intent intent = new Intent(RouteActivity.this, DeleteRouteActivity.class);
+                startActivity(intent);
+            });
         }
     }
 }

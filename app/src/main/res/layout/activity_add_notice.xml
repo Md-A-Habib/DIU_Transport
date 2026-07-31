@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:fillViewport="true"
+    tools:context=".AddNoticeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Add Notice"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- 1. Notice Title -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#03DAC5"
+            app:hintTextColor="#03DAC5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNoticeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title (e.g., Holiday)"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 2. Notice Description -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#03DAC5"
+            app:hintTextColor="#03DAC5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNoticeDescription"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="top|start"
+                android:hint="Description (e.g., No transport tomorrow.)"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Post Notice Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPostNotice"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Post Notice"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:backgroundTint="#03DAC5"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+</ScrollView>

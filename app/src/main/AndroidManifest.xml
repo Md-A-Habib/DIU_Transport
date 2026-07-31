@@ -115,9 +115,39 @@
             android:name=".RouteActivity"
             android:exported="false" />
 
+        <!-- For Add Route Activity -->
+        <activity
+            android:name=".AddRouteActivity"
+            android:exported="false" />
+
+        <!-- For Update Route Activity -->
+        <activity
+            android:name=".UpdateRouteActivity"
+            android:exported="false" />
+
+        <!-- For Delete Route Activity -->
+        <activity
+            android:name=".DeleteRouteActivity"
+            android:exported="false" />
+
         <!-- For Admin Notice Activity -->
         <activity
             android:name=".AdminNoticeActivity"
+            android:exported="false" />
+
+        <!-- For Add Notice Activity -->
+        <activity
+            android:name=".AddNoticeActivity"
+            android:exported="false" />
+
+        <!-- For View Notice Activity -->
+        <activity
+            android:name=".ViewNoticeActivity"
+            android:exported="false" />
+
+        <!-- For Delete Notice Activity -->
+        <activity
+            android:name=".DeleteNoticeActivity"
             android:exported="false" />
 
         <!-- For Admin Complain Activity -->

@@ -24,7 +24,40 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <!-- 1. View Notices Card -->
+        <!-- 1. Add Notice Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAddNoticeAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardBackgroundColor="#1E1E1E"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Notice"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Publish a new transport notice."
+                    android:textColor="#AAAAAA"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 2. View Notices Card -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardViewNoticesAction"
             android:layout_width="match_parent"
@@ -57,7 +90,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- 2. Delete Notice Card -->
+        <!-- 3. Delete Notice Card -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardDeleteNoticeAction"
             android:layout_width="match_parent"

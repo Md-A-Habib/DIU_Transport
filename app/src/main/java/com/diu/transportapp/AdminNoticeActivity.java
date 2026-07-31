@@ -1,5 +1,6 @@
 package com.diu.transportapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -25,17 +26,32 @@ public class AdminNoticeActivity extends AppCompatActivity {
         });
 
         // Click actions for Notice options
+        CardView cardAddNoticeAction = findViewById(R.id.cardAddNoticeAction);
         CardView cardViewNoticesAction = findViewById(R.id.cardViewNoticesAction);
         CardView cardDeleteNoticeAction = findViewById(R.id.cardDeleteNoticeAction);
 
-        if (cardViewNoticesAction != null) {
-            cardViewNoticesAction.setOnClickListener(v ->
-                    Toast.makeText(AdminNoticeActivity.this, "View Notices Action", Toast.LENGTH_SHORT).show());
+        // 1. Add Notice Action (Connected to AddNoticeActivity)
+        if (cardAddNoticeAction != null) {
+            cardAddNoticeAction.setOnClickListener(v -> {
+                Intent intent = new Intent(AdminNoticeActivity.this, AddNoticeActivity.class);
+                startActivity(intent);
+            });
         }
 
+        // 2. View Notices Action (Connected to ViewNoticeActivity)
+        if (cardViewNoticesAction != null) {
+            cardViewNoticesAction.setOnClickListener(v -> {
+                Intent intent = new Intent(AdminNoticeActivity.this, ViewNoticeActivity.class);
+                startActivity(intent);
+            });
+        }
+
+        // 3. Delete Notice Action (Connected to DeleteNoticeActivity)
         if (cardDeleteNoticeAction != null) {
-            cardDeleteNoticeAction.setOnClickListener(v ->
-                    Toast.makeText(AdminNoticeActivity.this, "Delete Notice Action", Toast.LENGTH_SHORT).show());
+            cardDeleteNoticeAction.setOnClickListener(v -> {
+                Intent intent = new Intent(AdminNoticeActivity.this, DeleteNoticeActivity.class);
+                startActivity(intent);
+            });
         }
     }
 }

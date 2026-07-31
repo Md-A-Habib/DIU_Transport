@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:fillViewport="true"
+    tools:context=".UpdateRouteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Update Bus Route"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- 1. Route Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#03DAC5"
+            app:hintTextColor="#03DAC5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUpdateRouteName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Route Name (e.g., Route 1 Updated)"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 2. Start Location -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#03DAC5"
+            app:hintTextColor="#03DAC5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUpdateStartLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Start Location (e.g., Mirpur)"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 3. End Location -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#03DAC5"
+            app:hintTextColor="#03DAC5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUpdateEndLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="End Location (e.g., DIU)"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 4. Departure Time -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:boxBackgroundColor="#1E1E1E"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#03DAC5"
+            app:hintTextColor="#03DAC5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUpdateDepartureTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Departure Time (e.g., 7:45 AM)"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Update Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnUpdateRoute"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Update Route"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:backgroundTint="#03DAC5"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+</ScrollView>
