@@ -1,8 +1,10 @@
-package com.diu.transportapp;
+package com.diu.transportapp.activity.notice;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.diu.transportapp.R;
 
 public class ViewNoticeActivity extends AppCompatActivity {
 

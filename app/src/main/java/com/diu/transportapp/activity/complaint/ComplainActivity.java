@@ -1,8 +1,7 @@
-package com.diu.transportapp;
+package com.diu.transportapp.activity.complaint;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +9,8 @@ import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.diu.transportapp.R;
 
 public class ComplainActivity extends AppCompatActivity {
 

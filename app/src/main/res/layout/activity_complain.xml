@@ -8,7 +8,7 @@
     android:background="#121212"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".ComplainActivity">
+    tools:context=".activity.complaint.ComplainActivity">
 
     <!-- Top Bar / Title -->
     <TextView

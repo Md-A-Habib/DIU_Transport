@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#121212"
     android:fillViewport="true"
-    tools:context=".ViewDriversActivity">
+    tools:context=".activity.action.ViewDriversActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

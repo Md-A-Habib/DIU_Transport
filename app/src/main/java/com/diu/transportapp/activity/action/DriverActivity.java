@@ -1,11 +1,12 @@
-package com.diu.transportapp;
+package com.diu.transportapp.activity.action;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+
+import com.diu.transportapp.R;
 
 public class DriverActivity extends AppCompatActivity {
 

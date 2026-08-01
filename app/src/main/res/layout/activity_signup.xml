@@ -8,7 +8,7 @@
     android:background="#121212"
     android:fillViewport="true"
     android:clipToPadding="false"
-    tools:context=".SignupActivity">
+    tools:context=".activity.auth.SignupActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -14,7 +14,7 @@
 
         <!-- For 1st (Loading Screen) -->
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.home.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,135 +24,135 @@
 
         <!-- For 2nd Login activity -->
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.auth.LoginActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- For Signup Activity -->
         <activity
-            android:name=".SignupActivity"
+            android:name=".activity.auth.SignupActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <!-- For Home Activity (Dashboard) -->
         <activity
-            android:name=".HomeActivity"
+            android:name=".activity.home.HomeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <!-- For Apply/Renew Transport Activity -->
         <activity
-            android:name=".ApplyTransportActivity"
+            android:name=".activity.transport.ApplyTransportActivity"
             android:exported="false" />
 
         <!-- For Bus Schedule Activity -->
         <activity
-            android:name=".BusScheduleActivity"
+            android:name=".activity.transport.BusScheduleActivity"
             android:exported="false" />
 
         <!-- For Complain Activity -->
         <activity
-            android:name=".ComplainActivity"
+            android:name=".activity.complaint.ComplainActivity"
             android:exported="false" />
 
         <!-- For Previous Complain Activity -->
         <activity
-            android:name=".PreviousComplainActivity"
+            android:name=".activity.complaint.PreviousComplainActivity"
             android:exported="false" />
 
         <!-- For Report Activity -->
         <activity
-            android:name=".ReportActivity"
+            android:name=".activity.complaint.ReportActivity"
             android:exported="false" />
 
         <!-- For Notice Activity -->
         <activity
-            android:name=".NoticeActivity"
+            android:name=".activity.notice.NoticeActivity"
             android:exported="false" />
 
         <!-- For Emergency Helpline Activity -->
         <activity
-            android:name=".EmergencyActivity"
+            android:name=".activity.emergency.EmergencyActivity"
             android:exported="false" />
 
         <!-- For Change Password Activity -->
         <activity
-            android:name=".ChangePasswordActivity"
+            android:name=".activity.auth.ChangePasswordActivity"
             android:exported="false" />
 
         <!-- For Update Profile Activity -->
         <activity
-            android:name=".UpdateProfileActivity"
+            android:name=".activity.action.UpdateProfileActivity"
             android:exported="false" />
 
         <!-- For Admin Dashboard Activity -->
         <activity
-            android:name=".AdminDashboardActivity"
+            android:name=".activity.home.AdminDashboardActivity"
             android:exported="false" />
 
         <!-- For Driver Activity -->
         <activity
-            android:name=".DriverActivity"
+            android:name=".activity.action.DriverActivity"
             android:exported="false" />
 
         <!-- For Add Driver Activity -->
         <activity
-            android:name=".AddDriverActivity"
+            android:name=".activity.action.AddDriverActivity"
             android:exported="false" />
 
         <!-- For View Drivers Activity -->
         <activity
-            android:name=".ViewDriversActivity"
+            android:name=".activity.action.ViewDriversActivity"
             android:exported="false" />
 
         <!-- For Delete Driver Activity -->
         <activity
-            android:name=".DeleteDriverActivity"
+            android:name=".activity.action.DeleteDriverActivity"
             android:exported="false" />
 
         <!-- For Route Activity -->
         <activity
-            android:name=".RouteActivity"
+            android:name=".activity.transport.RouteActivity"
             android:exported="false" />
 
         <!-- For Add Route Activity -->
         <activity
-            android:name=".AddRouteActivity"
+            android:name=".activity.transport.AddRouteActivity"
             android:exported="false" />
 
         <!-- For Update Route Activity -->
         <activity
-            android:name=".UpdateRouteActivity"
+            android:name=".activity.transport.UpdateRouteActivity"
             android:exported="false" />
 
         <!-- For Delete Route Activity -->
         <activity
-            android:name=".DeleteRouteActivity"
+            android:name=".activity.transport.DeleteRouteActivity"
             android:exported="false" />
 
         <!-- For Admin Notice Activity -->
         <activity
-            android:name=".AdminNoticeActivity"
+            android:name=".activity.notice.AdminNoticeActivity"
             android:exported="false" />
 
         <!-- For Add Notice Activity -->
         <activity
-            android:name=".AddNoticeActivity"
+            android:name=".activity.notice.AddNoticeActivity"
             android:exported="false" />
 
         <!-- For View Notice Activity -->
         <activity
-            android:name=".ViewNoticeActivity"
+            android:name=".activity.notice.ViewNoticeActivity"
             android:exported="false" />
 
         <!-- For Delete Notice Activity -->
         <activity
-            android:name=".DeleteNoticeActivity"
+            android:name=".activity.notice.DeleteNoticeActivity"
             android:exported="false" />
 
         <!-- For Admin Complain Activity -->
         <activity
-            android:name=".AdminComplainActivity"
+            android:name=".activity.complaint.AdminComplainActivity"
             android:exported="false" />
 
     </application>

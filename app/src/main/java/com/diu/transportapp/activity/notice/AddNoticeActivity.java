@@ -1,10 +1,11 @@
-package com.diu.transportapp;
+package com.diu.transportapp.activity.notice;
 
 import android.os.Bundle;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.diu.transportapp.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 

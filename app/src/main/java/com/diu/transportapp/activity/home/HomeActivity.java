@@ -1,4 +1,4 @@
-package com.diu.transportapp;
+package com.diu.transportapp.activity.home;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,16 @@ import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.diu.transportapp.activity.transport.ApplyTransportActivity;
+import com.diu.transportapp.activity.transport.BusScheduleActivity;
+import com.diu.transportapp.activity.notice.NoticeActivity;
+import com.diu.transportapp.R;
+import com.diu.transportapp.activity.action.UpdateProfileActivity;
+import com.diu.transportapp.activity.auth.ChangePasswordActivity;
+import com.diu.transportapp.activity.auth.LoginActivity;
+import com.diu.transportapp.activity.complaint.ComplainActivity;
+import com.diu.transportapp.activity.emergency.EmergencyActivity;
 
 public class HomeActivity extends AppCompatActivity {
 

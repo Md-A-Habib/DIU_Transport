@@ -1,4 +1,4 @@
-package com.diu.transportapp;
+package com.diu.transportapp.activity.auth;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.diu.transportapp.activity.home.AdminDashboardActivity;
+import com.diu.transportapp.activity.home.HomeActivity;
+import com.diu.transportapp.R;
 
 public class LoginActivity extends AppCompatActivity {
 
