@@ -155,6 +155,45 @@
             android:name=".activity.complaint.AdminComplainActivity"
             android:exported="false" />
 
+        <!-- For Driver Dashboard Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverDashboardActivity"
+            android:exported="false" />
+
+        <!-- For Driver Schedule Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverScheduleActivity"
+            android:exported="false" />
+
+        <!-- For Driver Notice Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverNoticeActivity"
+            android:exported="false" />
+
+        <!-- For Driver Complain Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverComplainActivity"
+            android:exported="false" />
+
+        <!-- For Driver Previous Complain Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverPreviousComplainActivity"
+            android:exported="false" />
+
+        <!-- For Driver Report Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverReportActivity"
+            android:exported="false" />
+
+        <!-- For Driver Update Profile Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverUpdateProfileActivity"
+            android:exported="false" />
+
+        <!-- For Driver Change Password Activity -->
+        <activity
+            android:name=".activity.driver_screen.DriverChangePasswordActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

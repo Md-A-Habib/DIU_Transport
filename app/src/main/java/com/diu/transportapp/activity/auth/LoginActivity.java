@@ -9,9 +9,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.diu.transportapp.R;
+import com.diu.transportapp.activity.driver_screen.DriverDashboardActivity;
 import com.diu.transportapp.activity.home.AdminDashboardActivity;
 import com.diu.transportapp.activity.home.HomeActivity;
-import com.diu.transportapp.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -42,6 +43,13 @@ public class LoginActivity extends AppCompatActivity {
                 // Admin Login Check
                 Toast.makeText(LoginActivity.this, "Admin Login Successful", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(LoginActivity.this, AdminDashboardActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
+            } else if (email.equals("driver@diu.edu.bd") && password.equals("123")) {
+                // Driver Login Check
+                Toast.makeText(LoginActivity.this, "Driver Login Successful", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(LoginActivity.this, DriverDashboardActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 finish();
