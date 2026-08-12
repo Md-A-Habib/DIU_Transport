@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.diu.transportapp-mergeDebugResources-40:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/shadhin/.gradle/caches/9.4.1/transforms/903cf5c63c07d3f2ffa32e9b097f6743/transformed/material-1.14.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,12,18,24,30,33,36,39,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,140,239,326,427,703,993,1271,1563,1794,1992,2211,2419",
+                        "endLines": "2,3,4,5,11,17,23,29,32,35,38,41,44",
+                        "endColumns": "84,98,86,100,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "135,234,321,422,698,988,1266,1558,1789,1987,2206,2414,2622"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,14,20,26,32,35,38,41,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "347,432,531,618,719,995,1285,1563,1855,2086,2284,2503,2711",
+                        "endLines": "4,5,6,7,13,19,25,31,34,37,40,43,46",
+                        "endColumns": "84,98,86,100,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "427,526,613,714,990,1280,1558,1850,2081,2279,2498,2706,2914"
+                    }
+                },
+                {
+                    "source": "/Users/shadhin/.gradle/caches/9.4.1/transforms/67253e81c262c529771257a88be91b2e/transformed/appcompat-1.7.1/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

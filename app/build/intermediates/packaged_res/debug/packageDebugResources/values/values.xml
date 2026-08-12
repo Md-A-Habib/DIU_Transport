@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_field">#F2F4F7</color>
+    <color name="bg_screen">#F5F7FA</color>
+    <color name="black">#FF1A1D29</color>
+    <color name="divider">#E7EAF0</color>
+    <color name="error">#E53935</color>
+    <color name="primary">#2F6FED</color>
+    <color name="primary_dark">#1E4FBE</color>
+    <color name="primary_light">#EAF1FF</color>
+    <color name="ripple">#1F2F6FED</color>
+    <color name="status_active">#1D9A6C</color>
+    <color name="status_active_bg">#E4F7EE</color>
+    <color name="status_inactive">#E1531F</color>
+    <color name="status_inactive_bg">#FDEAE3</color>
+    <color name="text_hint">#9AA1AC</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#1A1D29</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">DIU Transport</string>
+    <style name="Base.Theme.DIU_Transport" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorOnSecondary">@color/text_on_primary</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/bg_screen</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="Theme.DIU_Transport" parent="Base.Theme.DIU_Transport"/>
+</resources>

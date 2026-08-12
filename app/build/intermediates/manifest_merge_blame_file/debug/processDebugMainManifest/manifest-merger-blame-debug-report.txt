@@ -1,0 +1,263 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.diu.transportapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.18.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/7f9950b65a7cad90d9854c54812d0ab3/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.diu.transportapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.18.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/7f9950b65a7cad90d9854c54812d0ab3/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.18.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/7f9950b65a7cad90d9854c54812d0ab3/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.diu.transportapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.18.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/7f9950b65a7cad90d9854c54812d0ab3/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.18.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/7f9950b65a7cad90d9854c54812d0ab3/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:6:5-49:19
+20        android:allowBackup="true"
+20-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:7:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.18.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/7f9950b65a7cad90d9854c54812d0ab3/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:8:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+24-->INJECTED
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:9:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:13:9-35
+30        android:theme="@style/Theme.DIU_Transport" >
+30-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:14:9-51
+31        <activity
+31-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:16:9-23:20
+32            android:name="com.diu.transportapp.activity.SplashActivity"
+32-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:17:13-52
+33            android:exported="true" >
+33-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:18:13-36
+34            <intent-filter>
+34-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:19:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:20:17-69
+35-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:21:17-77
+37-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:25:9-85
+41            android:name="com.diu.transportapp.activity.LoginActivity"
+41-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:25:19-57
+42            android:exported="false" />
+42-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:25:58-82
+43        <activity
+43-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:26:9-88
+44            android:name="com.diu.transportapp.activity.RegisterActivity"
+44-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:26:19-60
+45            android:exported="false" />
+45-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:26:61-85
+46        <activity
+46-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:28:9-84
+47            android:name="com.diu.transportapp.activity.HomeActivity"
+47-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:28:19-56
+48            android:exported="false" />
+48-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:28:57-81
+49        <activity
+49-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:29:9-94
+50            android:name="com.diu.transportapp.activity.ApplyTransportActivity"
+50-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:29:19-66
+51            android:exported="false" />
+51-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:29:67-91
+52        <activity
+52-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:30:9-86
+53            android:name="com.diu.transportapp.activity.RoutesActivity"
+53-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:30:19-58
+54            android:exported="false" />
+54-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:30:59-83
+55        <activity
+55-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:31:9-86
+56            android:name="com.diu.transportapp.activity.NoticeActivity"
+56-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:31:19-58
+57            android:exported="false" />
+57-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:31:59-83
+58        <activity
+58-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:32:9-90
+59            android:name="com.diu.transportapp.activity.ComplaintsActivity"
+59-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:32:19-62
+60            android:exported="false" />
+60-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:32:63-87
+61        <activity
+61-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:33:9-93
+62            android:name="com.diu.transportapp.activity.UpdateProfileActivity"
+62-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:33:19-65
+63            android:exported="false" />
+63-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:33:66-90
+64        <activity
+64-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:34:9-94
+65            android:name="com.diu.transportapp.activity.ChangePasswordActivity"
+65-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:34:19-66
+66            android:exported="false" />
+66-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:34:67-91
+67        <activity
+67-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:36:9-94
+68            android:name="com.diu.transportapp.activity.AdminDashboardActivity"
+68-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:36:19-66
+69            android:exported="false" />
+69-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:36:67-91
+70        <activity
+70-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:37:9-91
+71            android:name="com.diu.transportapp.activity.AdminDriverActivity"
+71-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:37:19-63
+72            android:exported="false" />
+72-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:37:64-88
+73        <activity
+73-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:38:9-89
+74            android:name="com.diu.transportapp.activity.AddDriverActivity"
+74-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:38:19-61
+75            android:exported="false" />
+75-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:38:62-86
+76        <activity
+76-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:39:9-93
+77            android:name="com.diu.transportapp.activity.ManageDriversActivity"
+77-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:39:19-65
+78            android:exported="false" />
+78-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:39:66-90
+79        <activity
+79-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:40:9-90
+80            android:name="com.diu.transportapp.activity.AdminRouteActivity"
+80-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:40:19-62
+81            android:exported="false" />
+81-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:40:63-87
+82        <activity
+82-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:41:9-88
+83            android:name="com.diu.transportapp.activity.AddRouteActivity"
+83-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:41:19-60
+84            android:exported="false" />
+84-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:41:61-85
+85        <activity
+85-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:42:9-92
+86            android:name="com.diu.transportapp.activity.ManageRoutesActivity"
+86-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:42:19-64
+87            android:exported="false" />
+87-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:42:65-89
+88        <activity
+88-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:43:9-91
+89            android:name="com.diu.transportapp.activity.UpdateRouteActivity"
+89-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:43:19-63
+90            android:exported="false" />
+90-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:43:64-88
+91        <activity
+91-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:44:9-91
+92            android:name="com.diu.transportapp.activity.AdminNoticeActivity"
+92-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:44:19-63
+93            android:exported="false" />
+93-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:44:64-88
+94        <activity
+94-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:45:9-89
+95            android:name="com.diu.transportapp.activity.AddNoticeActivity"
+95-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:45:19-61
+96            android:exported="false" />
+96-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:45:62-86
+97        <activity
+97-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:46:9-93
+98            android:name="com.diu.transportapp.activity.ManageNoticesActivity"
+98-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:46:19-65
+99            android:exported="false" />
+99-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:46:66-90
+100        <activity
+100-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:47:9-95
+101            android:name="com.diu.transportapp.activity.AdminComplaintsActivity"
+101-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:47:19-67
+102            android:exported="false" />
+102-->/Users/shadhin/CODE/DIU_App/app/src/main/AndroidManifest.xml:47:68-92
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.3.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/5b262850dcedaa24a6c4dfaef13c2b70/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.3.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/5b262850dcedaa24a6c4dfaef13c2b70/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+106            android:authorities="com.diu.transportapp.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.3.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/5b262850dcedaa24a6c4dfaef13c2b70/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.3.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/5b262850dcedaa24a6c4dfaef13c2b70/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.3.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/5b262850dcedaa24a6c4dfaef13c2b70/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.3.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/5b262850dcedaa24a6c4dfaef13c2b70/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.3.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/5b262850dcedaa24a6c4dfaef13c2b70/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/shadhin/.gradle/caches/9.4.1/transforms/16a79127a1daf55e74c997ac38377a04/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/shadhin/.gradle/caches/9.4.1/transforms/16a79127a1daf55e74c997ac38377a04/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/shadhin/.gradle/caches/9.4.1/transforms/16a79127a1daf55e74c997ac38377a04/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+114            <meta-data
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+116                android:value="androidx.startup" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+117        </provider>
+118
+119        <receiver
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+120            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+121            android:directBootAware="false"
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+122            android:enabled="true"
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+123            android:exported="true"
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+124            android:permission="android.permission.DUMP" >
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+126                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+129                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+132                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+135                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/shadhin/.gradle/caches/9.4.1/transforms/b57bf9174f3ee6385aab7cff55429749/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+136            </intent-filter>
+137        </receiver>
+138    </application>
+139
+140</manifest>

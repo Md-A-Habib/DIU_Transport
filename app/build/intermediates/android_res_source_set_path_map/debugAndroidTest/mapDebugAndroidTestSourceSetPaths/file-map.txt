@@ -1,0 +1,5 @@
+com.diu.transportapp.test.app-updated_navigation_xml-0 /Users/shadhin/CODE/DIU_App/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.diu.transportapp.test.app-packageDebugAndroidTestResources-1 /Users/shadhin/CODE/DIU_App/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/merged.dir
+com.diu.transportapp.test.app-packageDebugAndroidTestResources-2 /Users/shadhin/CODE/DIU_App/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/stripped.dir
+com.diu.transportapp.test.app-debugAndroidTest-3 /Users/shadhin/CODE/DIU_App/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+gradleHome-0 /Users/shadhin/.gradle
