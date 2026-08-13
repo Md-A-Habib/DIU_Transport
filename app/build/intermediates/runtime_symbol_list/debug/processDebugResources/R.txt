@@ -3984,6 +3984,8 @@ int id asConfigured 0x7f080053
 int id async 0x7f080054
 int id auto 0x7f080055
 int id autoComplete 0x7f080056
+int id autoCompletePayment 0x7f080256
+int id autoCompleteSemester 0x7f080257
 int id autoCompleteToEnd 0x7f080057
 int id autoCompleteToStart 0x7f080058
 int id autoHide 0x7f080059
@@ -4375,8 +4377,6 @@ int id snapMargins 0x7f0801da
 int id south 0x7f0801db
 int id spacer 0x7f0801dc
 int id special_effects_controller_view_tag 0x7f0801dd
-int id spinnerPayment 0x7f0801de
-int id spinnerSemester 0x7f0801df
 int id spline 0x7f0801e0
 int id split_action_bar 0x7f0801e1
 int id spread 0x7f0801e2

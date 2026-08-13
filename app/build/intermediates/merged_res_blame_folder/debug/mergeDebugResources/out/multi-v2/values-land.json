@@ -4,7 +4,7 @@
             "outputFile": "com.diu.transportapp-mergeDebugResources-40:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/shadhin/.gradle/caches/9.4.1/transforms/67253e81c262c529771257a88be91b2e/transformed/appcompat-1.7.1/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\caches\\9.4.1\\transforms\\67253e81c262c529771257a88be91b2e\\transformed\\appcompat-1.7.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/shadhin/.gradle/caches/9.4.1/transforms/903cf5c63c07d3f2ffa32e9b097f6743/transformed/material-1.14.0/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\caches\\9.4.1\\transforms\\903cf5c63c07d3f2ffa32e9b097f6743\\transformed\\material-1.14.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,22,28,34,46,52",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

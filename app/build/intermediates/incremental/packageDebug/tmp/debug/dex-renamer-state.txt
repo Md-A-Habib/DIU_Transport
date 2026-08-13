@@ -1,19 +1,19 @@
-#Wed Aug 12 13:33:19 BDT 2026
-base.0=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.3=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.4=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
-base.5=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.6=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
-base.7=/Users/shadhin/CODE/DIU_App/app/build/intermediates/global_synthetics_dex/debug/generateDebugGlobalSynthetics/classes.dex
-base.8=/Users/shadhin/CODE/DIU_App/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Fri Aug 14 03:45:20 BDT 2026
+base.0=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.5=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.6=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.7=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\global_synthetics_dex\\debug\\generateDebugGlobalSynthetics\\classes.dex
+base.8=C\:\\Users\\Md. Ahsan Habib\\AndroidStudioProjects\\DIU-Transport\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=1/classes.dex
-path.3=11/classes.dex
-path.4=12/classes.dex
-path.5=14/classes.dex
+path.2=11/classes.dex
+path.3=12/classes.dex
+path.4=14/classes.dex
+path.5=1/classes.dex
 path.6=5/classes.dex
 path.7=classes.dex
 path.8=classes2.dex

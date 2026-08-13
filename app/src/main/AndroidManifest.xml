@@ -22,8 +22,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.LoginActivity" android:exported="false" />
-        <activity android:name=".activity.RegisterActivity" android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" />
 
         <activity android:name=".activity.HomeActivity" android:exported="false" />
         <activity android:name=".activity.ApplyTransportActivity" android:exported="false" />

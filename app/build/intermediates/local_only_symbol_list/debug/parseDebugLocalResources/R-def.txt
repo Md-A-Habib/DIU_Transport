@@ -25,6 +25,8 @@ drawable bg_status_active
 drawable bg_status_inactive
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id autoCompletePayment
+id autoCompleteSemester
 id btnBack
 id btnDelete
 id btnEdit
@@ -67,8 +69,6 @@ id rbStaff
 id rbStudent
 id recyclerView
 id rgRole
-id spinnerPayment
-id spinnerSemester
 id statusGroup
 id swipeRefresh
 id tvCardExpires

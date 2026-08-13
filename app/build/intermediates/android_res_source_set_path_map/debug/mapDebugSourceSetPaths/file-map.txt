@@ -1,8 +1,8 @@
-com.diu.transportapp-pngs-0 /Users/shadhin/CODE/DIU_App/app/build/generated/res/pngs/debug
-com.diu.transportapp-updated_navigation_xml-1 /Users/shadhin/CODE/DIU_App/app/build/generated/updated_navigation_xml/debug
-com.diu.transportapp-packageDebugResources-2 /Users/shadhin/CODE/DIU_App/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.diu.transportapp-packageDebugResources-3 /Users/shadhin/CODE/DIU_App/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.diu.transportapp-debug-4 /Users/shadhin/CODE/DIU_App/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.diu.transportapp-debug-5 /Users/shadhin/CODE/DIU_App/app/src/debug/res
-com.diu.transportapp-main-6 /Users/shadhin/CODE/DIU_App/app/src/main/res
-gradleHome-0 /Users/shadhin/.gradle
+com.diu.transportapp-pngs-0 C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\build\generated\res\pngs\debug
+com.diu.transportapp-updated_navigation_xml-1 C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\build\generated\updated_navigation_xml\debug
+com.diu.transportapp-packageDebugResources-2 C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.diu.transportapp-packageDebugResources-3 C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.diu.transportapp-debug-4 C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.diu.transportapp-debug-5 C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\debug\res
+com.diu.transportapp-main-6 C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\res
+gradleHome-0 C:\Users\Md. Ahsan Habib\.gradle

@@ -23,6 +23,8 @@ int drawable bg_status_active 0x0
 int drawable bg_status_inactive 0x0
 int drawable ic_launcher_background 0x0
 int drawable ic_launcher_foreground 0x0
+int id autoCompletePayment 0x0
+int id autoCompleteSemester 0x0
 int id btnBack 0x0
 int id btnDelete 0x0
 int id btnEdit 0x0
@@ -65,8 +67,6 @@ int id rbStaff 0x0
 int id rbStudent 0x0
 int id recyclerView 0x0
 int id rgRole 0x0
-int id spinnerPayment 0x0
-int id spinnerSemester 0x0
 int id statusGroup 0x0
 int id swipeRefresh 0x0
 int id tvCardExpires 0x0
