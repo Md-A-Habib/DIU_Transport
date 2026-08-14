@@ -25,7 +25,7 @@ import java.util.concurrent.Executors;
  */
 public class ApiClient {
 
-    public static final String BASE_URL = "https://diu-transport-ll73.onrender.com";
+    public static final String BASE_URL = "https://diu-transport-production-4895.up.railway.app";
 
     private static final ExecutorService EXECUTOR = Executors.newCachedThreadPool();
     private static final Handler MAIN = new Handler(Looper.getMainLooper());

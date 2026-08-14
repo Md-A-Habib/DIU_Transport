@@ -47,222 +47,221 @@
 28-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:12:9-54
 29        android:supportsRtl="true"
 29-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:13:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.DIU_Transport" >
-31-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:14:9-51
-32        <activity
-32-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:16:9-23:20
-33            android:name="com.diu.transportapp.activity.SplashActivity"
-33-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:17:13-52
-34            android:exported="true" >
-34-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:18:13-36
-35            <intent-filter>
-35-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:19:13-22:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:20:17-69
-36-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:20:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:21:17-77
-38-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:21:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:25:9-28:40
-42            android:name="com.diu.transportapp.activity.LoginActivity"
-42-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:26:13-51
-43            android:exported="false"
-43-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:28:13-37
-44            android:windowSoftInputMode="adjustResize" />
-44-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:27:13-55
-45        <activity
-45-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:30:9-33:40
-46            android:name="com.diu.transportapp.activity.RegisterActivity"
-46-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:31:13-54
-47            android:exported="false"
-47-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:33:13-37
-48            android:windowSoftInputMode="adjustResize" />
-48-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:32:13-55
-49        <activity
-49-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:35:9-84
-50            android:name="com.diu.transportapp.activity.HomeActivity"
-50-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:35:19-56
-51            android:exported="false" />
-51-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:35:57-81
-52        <activity
-52-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:36:9-94
-53            android:name="com.diu.transportapp.activity.ApplyTransportActivity"
-53-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:36:19-66
-54            android:exported="false" />
-54-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:36:67-91
-55        <activity
-55-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:37:9-86
-56            android:name="com.diu.transportapp.activity.RoutesActivity"
-56-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:37:19-58
-57            android:exported="false" />
-57-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:37:59-83
-58        <activity
-58-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:38:9-86
-59            android:name="com.diu.transportapp.activity.NoticeActivity"
-59-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:38:19-58
-60            android:exported="false" />
-60-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:38:59-83
-61        <activity
-61-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:39:9-90
-62            android:name="com.diu.transportapp.activity.ComplaintsActivity"
-62-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:39:19-62
-63            android:exported="false" />
-63-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:39:63-87
-64        <activity
-64-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:40:9-93
-65            android:name="com.diu.transportapp.activity.UpdateProfileActivity"
-65-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:40:19-65
-66            android:exported="false" />
-66-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:40:66-90
-67        <activity
-67-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:41:9-94
-68            android:name="com.diu.transportapp.activity.ChangePasswordActivity"
-68-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:41:19-66
-69            android:exported="false" />
-69-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:41:67-91
-70        <activity
-70-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:43:9-94
-71            android:name="com.diu.transportapp.activity.AdminDashboardActivity"
-71-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:43:19-66
-72            android:exported="false" />
-72-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:43:67-91
-73        <activity
-73-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:44:9-91
-74            android:name="com.diu.transportapp.activity.AdminDriverActivity"
-74-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:44:19-63
-75            android:exported="false" />
-75-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:44:64-88
-76        <activity
-76-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:45:9-89
-77            android:name="com.diu.transportapp.activity.AddDriverActivity"
-77-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:45:19-61
-78            android:exported="false" />
-78-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:45:62-86
-79        <activity
-79-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:46:9-93
-80            android:name="com.diu.transportapp.activity.ManageDriversActivity"
-80-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:46:19-65
-81            android:exported="false" />
-81-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:46:66-90
-82        <activity
-82-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:47:9-90
-83            android:name="com.diu.transportapp.activity.AdminRouteActivity"
-83-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:47:19-62
-84            android:exported="false" />
-84-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:47:63-87
-85        <activity
-85-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:48:9-88
-86            android:name="com.diu.transportapp.activity.AddRouteActivity"
-86-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:48:19-60
-87            android:exported="false" />
-87-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:48:61-85
-88        <activity
-88-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:49:9-92
-89            android:name="com.diu.transportapp.activity.ManageRoutesActivity"
-89-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:49:19-64
-90            android:exported="false" />
-90-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:49:65-89
-91        <activity
-91-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:50:9-91
-92            android:name="com.diu.transportapp.activity.UpdateRouteActivity"
-92-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:50:19-63
-93            android:exported="false" />
-93-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:50:64-88
-94        <activity
-94-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:51:9-91
-95            android:name="com.diu.transportapp.activity.AdminNoticeActivity"
-95-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:51:19-63
-96            android:exported="false" />
-96-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:51:64-88
-97        <activity
-97-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:52:9-89
-98            android:name="com.diu.transportapp.activity.AddNoticeActivity"
-98-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:52:19-61
-99            android:exported="false" />
-99-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:52:62-86
-100        <activity
-100-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:53:9-93
-101            android:name="com.diu.transportapp.activity.ManageNoticesActivity"
-101-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:53:19-65
-102            android:exported="false" />
-102-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:53:66-90
-103        <activity
-103-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:54:9-95
-104            android:name="com.diu.transportapp.activity.AdminComplaintsActivity"
-104-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:54:19-67
-105            android:exported="false" />
-105-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:54:68-92
-106
-107        <provider
-107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-108            android:name="androidx.startup.InitializationProvider"
-108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-109            android:authorities="com.diu.transportapp.androidx-startup"
-109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-110            android:exported="false" >
-110-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-111            <meta-data
-111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-113                android:value="androidx.startup" />
-113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-114            <meta-data
-114-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\16a79127a1daf55e74c997ac38377a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-115-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\16a79127a1daf55e74c997ac38377a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-116                android:value="androidx.startup" />
-116-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\16a79127a1daf55e74c997ac38377a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-117            <meta-data
-117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-118                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-119                android:value="androidx.startup" />
-119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-120        </provider>
-121
-122        <receiver
-122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-124            android:directBootAware="false"
-124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-125            android:enabled="true"
-125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-126            android:exported="true"
-126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-127            android:permission="android.permission.DUMP" >
-127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-128            <intent-filter>
-128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-130            </intent-filter>
-131            <intent-filter>
-131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-133            </intent-filter>
-134            <intent-filter>
-134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-136            </intent-filter>
-137            <intent-filter>
-137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-139            </intent-filter>
-140        </receiver>
-141    </application>
-142
-143</manifest>
+30        android:theme="@style/Theme.DIU_Transport" >
+30-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:14:9-51
+31        <activity
+31-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:16:9-23:20
+32            android:name="com.diu.transportapp.activity.SplashActivity"
+32-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:17:13-52
+33            android:exported="true" >
+33-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:18:13-36
+34            <intent-filter>
+34-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:19:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:20:17-69
+35-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:21:17-77
+37-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:25:9-28:40
+41            android:name="com.diu.transportapp.activity.LoginActivity"
+41-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:26:13-51
+42            android:exported="false"
+42-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:28:13-37
+43            android:windowSoftInputMode="adjustResize" />
+43-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:27:13-55
+44        <activity
+44-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:30:9-33:40
+45            android:name="com.diu.transportapp.activity.RegisterActivity"
+45-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:31:13-54
+46            android:exported="false"
+46-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:33:13-37
+47            android:windowSoftInputMode="adjustResize" />
+47-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:32:13-55
+48        <activity
+48-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:35:9-84
+49            android:name="com.diu.transportapp.activity.HomeActivity"
+49-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:35:19-56
+50            android:exported="false" />
+50-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:35:57-81
+51        <activity
+51-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:36:9-94
+52            android:name="com.diu.transportapp.activity.ApplyTransportActivity"
+52-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:36:19-66
+53            android:exported="false" />
+53-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:36:67-91
+54        <activity
+54-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:37:9-86
+55            android:name="com.diu.transportapp.activity.RoutesActivity"
+55-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:37:19-58
+56            android:exported="false" />
+56-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:37:59-83
+57        <activity
+57-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:38:9-86
+58            android:name="com.diu.transportapp.activity.NoticeActivity"
+58-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:38:19-58
+59            android:exported="false" />
+59-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:38:59-83
+60        <activity
+60-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:39:9-90
+61            android:name="com.diu.transportapp.activity.ComplaintsActivity"
+61-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:39:19-62
+62            android:exported="false" />
+62-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:39:63-87
+63        <activity
+63-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:40:9-93
+64            android:name="com.diu.transportapp.activity.UpdateProfileActivity"
+64-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:40:19-65
+65            android:exported="false" />
+65-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:40:66-90
+66        <activity
+66-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:41:9-94
+67            android:name="com.diu.transportapp.activity.ChangePasswordActivity"
+67-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:41:19-66
+68            android:exported="false" />
+68-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:41:67-91
+69        <activity
+69-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:43:9-94
+70            android:name="com.diu.transportapp.activity.AdminDashboardActivity"
+70-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:43:19-66
+71            android:exported="false" />
+71-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:43:67-91
+72        <activity
+72-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:44:9-91
+73            android:name="com.diu.transportapp.activity.AdminDriverActivity"
+73-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:44:19-63
+74            android:exported="false" />
+74-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:44:64-88
+75        <activity
+75-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:45:9-89
+76            android:name="com.diu.transportapp.activity.AddDriverActivity"
+76-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:45:19-61
+77            android:exported="false" />
+77-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:45:62-86
+78        <activity
+78-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:46:9-93
+79            android:name="com.diu.transportapp.activity.ManageDriversActivity"
+79-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:46:19-65
+80            android:exported="false" />
+80-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:46:66-90
+81        <activity
+81-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:47:9-90
+82            android:name="com.diu.transportapp.activity.AdminRouteActivity"
+82-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:47:19-62
+83            android:exported="false" />
+83-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:47:63-87
+84        <activity
+84-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:48:9-88
+85            android:name="com.diu.transportapp.activity.AddRouteActivity"
+85-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:48:19-60
+86            android:exported="false" />
+86-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:48:61-85
+87        <activity
+87-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:49:9-92
+88            android:name="com.diu.transportapp.activity.ManageRoutesActivity"
+88-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:49:19-64
+89            android:exported="false" />
+89-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:49:65-89
+90        <activity
+90-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:50:9-91
+91            android:name="com.diu.transportapp.activity.UpdateRouteActivity"
+91-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:50:19-63
+92            android:exported="false" />
+92-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:50:64-88
+93        <activity
+93-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:51:9-91
+94            android:name="com.diu.transportapp.activity.AdminNoticeActivity"
+94-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:51:19-63
+95            android:exported="false" />
+95-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:51:64-88
+96        <activity
+96-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:52:9-89
+97            android:name="com.diu.transportapp.activity.AddNoticeActivity"
+97-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:52:19-61
+98            android:exported="false" />
+98-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:52:62-86
+99        <activity
+99-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:53:9-93
+100            android:name="com.diu.transportapp.activity.ManageNoticesActivity"
+100-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:53:19-65
+101            android:exported="false" />
+101-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:53:66-90
+102        <activity
+102-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:54:9-95
+103            android:name="com.diu.transportapp.activity.AdminComplaintsActivity"
+103-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:54:19-67
+104            android:exported="false" />
+104-->C:\Users\Md. Ahsan Habib\AndroidStudioProjects\DIU-Transport\app\src\main\AndroidManifest.xml:54:68-92
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+108            android:authorities="com.diu.transportapp.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\5b262850dcedaa24a6c4dfaef13c2b70\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\16a79127a1daf55e74c997ac38377a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\16a79127a1daf55e74c997ac38377a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\16a79127a1daf55e74c997ac38377a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+118                android:value="androidx.startup" />
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+119        </provider>
+120
+121        <receiver
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+122            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+123            android:directBootAware="false"
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+124            android:enabled="true"
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+125            android:exported="true"
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+126            android:permission="android.permission.DUMP" >
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+128                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+131                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+134                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+137                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Md. Ahsan Habib\.gradle\caches\9.4.1\transforms\b57bf9174f3ee6385aab7cff55429749\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+138            </intent-filter>
+139        </receiver>
+140    </application>
+141
+142</manifest>
