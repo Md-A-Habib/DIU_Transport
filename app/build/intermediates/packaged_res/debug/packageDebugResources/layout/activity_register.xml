@@ -132,7 +132,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="52dp"
-                android:hint="DIU email address"
+                android:hint="DIU email (251-15-xxx@diu.edu.bd)"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/text_primary"
                 android:textSize="14sp" />

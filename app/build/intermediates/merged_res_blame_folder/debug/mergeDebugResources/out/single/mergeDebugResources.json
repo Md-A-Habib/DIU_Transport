@@ -4,12 +4,28 @@
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_item_driver.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\item_driver.xml"
+    },
+    {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_routes.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_routes.xml"
     },
     {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_home.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_notice.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_item_route.xml.flat",
@@ -20,12 +36,52 @@
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_admin_dashboard.xml"
     },
     {
+        "merged": "com.diu.transportapp-debug-42:/layout_activity_register.xml.flat",
+        "source": "com.diu.transportapp-main-44:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\drawable_bg_icon_circle.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\drawable\\bg_icon_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_add_notice.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_add_notice.xml"
+    },
+    {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_complaints.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_complaints.xml"
     },
     {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\drawable_bg_status_active.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\drawable\\bg_status_active.xml"
+    },
+    {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_apply_transport.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_apply_transport.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_manage_routes.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_manage_routes.xml"
     },
     {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -48,100 +104,12 @@
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_admin_driver.xml"
     },
     {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\drawable_bg_field.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\drawable\\bg_field.xml"
-    },
-    {
-        "merged": "com.diu.transportapp-debug-42:/layout_activity_add_route.xml.flat",
-        "source": "com.diu.transportapp-main-44:/layout/activity_add_route.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_manage_notices.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_manage_notices.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_update_profile.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_update_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_add_route.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_add_route.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_item_complaint.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\item_complaint.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_add_driver.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_add_driver.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_item_driver.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\item_driver.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_notice.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_notice.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\drawable_bg_icon_circle.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\drawable\\bg_icon_circle.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_add_notice.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_add_notice.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\drawable_bg_status_active.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\drawable\\bg_status_active.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_manage_routes.xml.flat",
-        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_manage_routes.xml"
-    },
-    {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_manage_drivers.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_manage_drivers.xml"
     },
     {
-        "merged": "com.diu.transportapp-debug-42:/layout_activity_add_notice.xml.flat",
-        "source": "com.diu.transportapp-main-44:/layout/activity_add_notice.xml"
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\drawable_bg_field.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\drawable\\bg_field.xml"
     },
     {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_change_password.xml.flat",
@@ -152,16 +120,16 @@
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\drawable\\bg_status_inactive.xml"
     },
     {
-        "merged": "com.diu.transportapp-debug-42:/layout_activity_update_route.xml.flat",
-        "source": "com.diu.transportapp-main-44:/layout/activity_update_route.xml"
-    },
-    {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_admin_complaints.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_admin_complaints.xml"
     },
     {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_manage_notices.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_manage_notices.xml"
     },
     {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_item_notice.xml.flat",
@@ -184,6 +152,18 @@
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_add_route.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_add_route.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_update_profile.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_update_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -192,7 +172,19 @@
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_item_complaint.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\item_complaint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_add_driver.xml.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_add_driver.xml"
+    },
+    {
         "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-debug-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Ahsan Habib\\.gradle\\daemon\\9.4.1\\com.diu.transportapp-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     }
 ]
